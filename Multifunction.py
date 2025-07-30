@@ -42,3 +42,16 @@ class Multifunction:
         print ("Percentage :",Percentage)
         submessage=("Percentage :",Percentage)
         return submessage
+    def triangle():
+        height = 32
+        Breadth = 34
+        Area_of_Triangle =(height*Breadth)/2
+        print ("Area of Triangle :",Area_of_Triangle)
+        Areamessage=("Area of Triangle :",Area_of_Triangle)
+        height1 = 2
+        height2 = 4
+        Breadth1 = 4
+        Perimeter_of_Triangle =height1+height2+Breadth1
+        print("Perimeter of Triangle :",Perimeter_of_Triangle)
+        Perimetermessage=("Perimeter of Triangle :",Perimeter_of_Triangle)
+        return Areamessage,Perimetermessage
